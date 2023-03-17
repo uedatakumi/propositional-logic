@@ -5,3 +5,4 @@ data Prop = Con Bool
           | Not Prop
           | And Prop Prop
           | Or  Prop Prop
+          | Imp Prop Prop
