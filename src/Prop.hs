@@ -1,4 +1,4 @@
-module AST where
+module Prop where
 
 data Prop = Con Bool
           | Var Char

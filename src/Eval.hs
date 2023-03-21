@@ -1,6 +1,6 @@
 module Eval where
 
-import AST
+import Prop
 
 type Valuation = [(Char, Bool)]
 
