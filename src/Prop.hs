@@ -6,3 +6,4 @@ data Prop = Con Bool
           | And Prop Prop
           | Or  Prop Prop
           | Imp Prop Prop
+    deriving Show
