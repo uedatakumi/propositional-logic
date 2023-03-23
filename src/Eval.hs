@@ -11,3 +11,4 @@ eval v (Not p)   = not (eval v p)
 eval v (And p q) = eval v p && eval v q
 eval v (Or  p q) = eval v p || eval v q
 eval v (Imp p q) = eval v (Not p) || eval v q
+eval v (Iff p q) = eval v (Imp p q) && eval v (Imp q p)

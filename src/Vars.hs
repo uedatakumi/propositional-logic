@@ -9,3 +9,4 @@ vars (Not p)   = vars p
 vars (And p q) = vars p ++ vars q
 vars (Or  p q) = vars p ++ vars q
 vars (Imp p q) = vars p ++ vars q
+vars (Iff p q) = vars p ++ vars q
