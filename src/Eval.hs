@@ -1,6 +1,7 @@
 module Eval where
 
 import Prop
+import Substitution
 
 type Valuation = [(Char, Bool)]
 
